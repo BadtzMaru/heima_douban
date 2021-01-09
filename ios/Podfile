@@ -8,6 +8,8 @@ target 'heima_douban' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'heima_doubanTests' do
     inherit! :complete
     # Pods for testing
